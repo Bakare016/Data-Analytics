@@ -91,6 +91,7 @@ where years is not null
 )
 select *
 from Company_Year_Rank
+where ranking <= 5
 ;
 
 
